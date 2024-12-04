@@ -1,3 +1,12 @@
+task:
+  - name: mqtt-python
+    init: |
+      sudo apt update
+      sudo apt install mosquitto mosquitto-clients -y
+      pip install -r requirements.txt
+
+
+
 ports:
   - port: 1883
     onOpen: ignore
