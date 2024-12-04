@@ -1,6 +1,7 @@
 ports:
   - port: 1883
     onOpen: ignore
+    visibility: public
   - port: 8083
     onOpen: ignore
   - port: 443
